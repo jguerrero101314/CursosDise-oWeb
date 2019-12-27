@@ -14,8 +14,8 @@ body {
 }
 
 .contenedor {
-    /* margin:auto; */
-    margin: 20px;
+    margin: auto;
+    /* margin: 20px; */
     width: 90%;
     max-width: 1000px;
     display: flex;
@@ -87,4 +87,26 @@ aside .ad {
     padding: 50px 0;
     background-color: #4264a2;
     /* margin: 20px 0; */
+}
+
+footer {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, .2);
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+footer .redes-sociales a:hover {
+    text-decoration: none;
 }
