@@ -3,27 +3,34 @@
     width: 70%;
     background-color: #fff;
     float: left;
-}
-
-.main .imagen {
+    .imagen {
     width: 100%;
+         img {
+             width: 100%;
+             vertical-align: top;
+            }
+    }
+    .posts {
+        padding: 40px;
+         article {
+            h2 {
+                 margin-bottom: 20px;
+                 color: #424242;
+               }
+               p {
+                margin-bottom: 15px;
+                line-height: 27px;
+              }
+         }
+    }
 }
 
-.main .imagen img {
-    width: 100%;
-    vertical-align: top;
-}
+ 
 
-.main .posts {
-    padding: 40px;
-}
 
-.main .posts article h2 {
-    margin-bottom: 20px;
-    color: #424242;
-}
 
-.main .posts article p {
-    margin-bottom: 15px;
-    line-height: 27px;
-}
+
+
+
+
+
