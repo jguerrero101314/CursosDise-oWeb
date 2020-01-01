@@ -1,0 +1,29 @@
+
+.main {
+    width: 70%;
+    background-color: #fff;
+    float: left;
+}
+
+.main .imagen {
+    width: 100%;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .posts {
+    padding: 40px;
+}
+
+.main .posts article h2 {
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.main .posts article p {
+    margin-bottom: 15px;
+    line-height: 27px;
+}
