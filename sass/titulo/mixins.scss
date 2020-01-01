@@ -1,0 +1,29 @@
+@mixin colores($fondo, $articulo) {
+    body {
+        background-color: $fondo;
+    }
+    .articulo {
+        background-color: $articulo;
+    }
+}
+
+@include colores(#ff8000, #fff);
+@mixin border-radius($border) {
+    -webkit-border-radius: $border;
+    -moz-border-radius: $border;
+    -ms-border-radius: $border;
+    -o-border-radius: $border;
+    border-radius: $border;
+}
+
+.articulo {
+    @include border-radius(20px);
+}
+
+footer {
+    @include border-radius(5px);
+}
+
+article {
+    background-color: rgba(#ff8000, .5);
+}
