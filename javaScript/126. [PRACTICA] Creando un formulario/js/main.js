@@ -37,20 +37,20 @@
         }
     }
     function validarTerminos(e){
-        if(terminos.value === '' || terminos.value === null){
-            // console.log("completa el nombre");
+        if(terminos.checked === false ){
             error.style.display = 'block';
-            error.innerHTML += '<li>Por favor completa el terminos</li>';
+            error.innerHTML += '<li>Por favor acepta los terminos</li>';
             e.preventDefault();
           }else{
             error.style.display = 'none';
         }
     }
     function validarFormulario(e) {
+        error.innerHTML = '';
         validarNombre(e);
-         validarCorreo(e);
-         validarSexo(e);
-         validarTerminos(e);
+        validarCorreo(e);
+        validarSexo(e);
+        validarTerminos(e);
     }
     formulario.addEventListener('submit', validarFormulario);
 
