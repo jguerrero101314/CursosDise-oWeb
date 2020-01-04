@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<!-- <header>
+	<header>
 		<h1 class="titulo">Lorem Ipsum Video</h1>
-	</header> -->
+	</header>
 
 	<main>
 		<div class="contenedor">
-			<video width="500" class="fm-video video-js" controls id="fm-video" >
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video" >
 				<source src="video/keyboard.mp4" type="video/mp4">
 			</video>
 	
@@ -32,8 +32,7 @@
 	<script src="https://vjs.zencdn.net/7.3.0/video.min.js"></script>
 	<script>
 		var reproductor = videojs('fm-video',{
-
-
+			fluid: true
 		});
 	</script>
 </body>
