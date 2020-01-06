@@ -1,93 +1,186 @@
-.main{
+.main {
     background: url('../img/bg-textura.png');
-	background-repeat: repeat;
-    .acerda-de{
-        .contenedor{
+    background-repeat: repeat;
+
+    .acerda-de {
+        .contenedor {
             overflow: visible;
             position: relative;
         }
-        .foto{
+
+        .foto {
             width: 80%;
             position: absolute;
             left: 0;
-            top:-50px;
+            top: -50px;
             z-index: 0;
-            -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
-            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
-            img{
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+
+            img {
                 width: 100%;
-                vertical-align:top;
+                vertical-align: top;
             }
         }
-        article{
+
+        article {
             background: #fff;
             padding: 40px;
             width: 50%;
             position: relative;
             float: right;
-            top: 300px; /*Con Parallax*/
+            top: 300px;
+            /*Con Parallax*/
             z-index: 1;
-            -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
-            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
-            h3{
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+
+            h3 {
                 font-size: 50px;
                 font-weight: 300;
                 margin-bottom: 40px;
             }
-            p{
+
+            p {
                 line-height: 28px;
                 margin-bottom: 15px;
             }
         }
     }
-    .menu{
+
+    .menu {
         padding-top: 695px;
         margin-bottom: 50px;
-        .titulo{
+
+        .titulo {
             font-size: 40px;
             font-weight: 300;
             text-align: center;
             margin-bottom: 40px;
         }
+
         .contenedor-menu,
-        .conetenedor-menu2{
+        .conetenedor-menu2 {
             border: 1px solid #000;
-            background:transparent;
+            background: transparent;
             padding: 10px;
             overflow: hidden;
         }
-        article{
+
+        article {
             width: 50%;
             float: left;
             padding: 20px;
         }
-        .categoria{
+
+        .categoria {
             font-size: 22px;
             font-weight: 700;
             margin-bottom: 40px;
             text-align: center;
         }
-        .platillo{
+
+        .platillo {
             margin-bottom: 30px;
             padding-bottom: 20px;
             border-bottom: 4px dotted #000;
             overflow: hidden;
         }
-        .nombre{
+
+        .nombre {
             font-size: 20px;
             margin-bottom: 15px;
             float: left;
         }
-        .precio{
+
+        .precio {
             font-size: 20px;
             margin-bottom: 15px;
             float: right;
 
         }
-        .descripcion{
+
+        .descripcion {
             font-size: 16px;
             color: #676767;
             clear: both;
+        }
+    }
+
+    .galeria {
+        overflow: hidden;
+
+        .foto {
+            width: 25%;
+            float: left;
+
+            img {
+                width: 100%;
+                vertical-align: top;
+                opacity: .7;
+
+                &:hover {
+                    opacity: 1;
+                    -transition: all .3s ease;
+                }
+            }
+        }
+    }
+
+    .ubicacion {
+        background: #fff;
+        padding: 60px 0;
+
+        .titulo {
+            text-align: center;
+            font-size: 40px;
+            line-height: 40px;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .direccion {
+            width: 50%;
+            float: left;
+            text-align: left;
+        }
+
+        .horarios {
+            width: 50%;
+            float: right;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .direccion {
+            .calle {
+                margin-bottom: 15px;
+            }
+        }
+
+        .horarios {
+          
+            .h4 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .entre-semana,
+            .fin-semana {
+                width: 50%;
+                float: left;
+                text-align: center;
+                padding-top: 15px;
+            }
+        }
+
+    }
+    .mapa{
+        width: 100%;
+        overflow: hidden;
+        iframe{
+            width: 100%;
+            max-width: 1600px;
         }
     }
 }
