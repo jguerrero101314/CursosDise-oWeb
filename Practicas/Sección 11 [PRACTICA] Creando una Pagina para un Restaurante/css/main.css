@@ -186,6 +186,50 @@ footer {
     padding: 15px 0;
     color: #fff; }
 
+/* ----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 800px) {
+  header .contenedor {
+    position: static;
+    height: auto; }
+
+  header .textos {
+    position: static;
+    margin: 100px 0; }
+
+  header .navegacion {
+    text-align: center; }
+
+  header .navegacion a {
+    margin: 10px 20px; }
+
+  header .textos .nombre {
+    font-size: 30px; }
+
+  header .textos h3 {
+    font-size: 18px; }
+
+  .main .acerca-de .foto {
+    width: 100%;
+    position: relative; }
+
+  .main .acerca-de article {
+    position: relative;
+    width: 100%;
+    top: -50px;
+    transform: translate(0px, 0); }
+
+  .main .navegacion {
+    padding-top: 300px; }
+
+  .main .navegacion article {
+    width: 100%; }
+
+  .main .galeria .foto {
+    width: 50%; }
+
+  .main .mapa {
+    width: 80%;
+    margin: auto; } }
 /*# sourceMappingURL=main.scss.map */
 
 /*# sourceMappingURL=main.css.map */
