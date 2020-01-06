@@ -1,21 +1,22 @@
 .main{
     background: url('../img/bg-textura.png');
-    background-repeat: repeat;
+	background-repeat: repeat;
     .acerda-de{
         .contenedor{
-           overflow: visible;
-           position: relative;
+            overflow: visible;
+            position: relative;
         }
         .foto{
             width: 80%;
             position: absolute;
             left: 0;
-            top: -50px;
+            top:-50px;
             z-index: 0;
-            box-shadow: 0px 0px 15px rgba(#0000, .35);
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
             img{
-                vertical-align: top;
                 width: 100%;
+                vertical-align:top;
             }
         }
         article{
@@ -23,11 +24,11 @@
             padding: 40px;
             width: 50%;
             position: relative;
-            // top: 500px;
-            top: 300px;
-            z-index: 1;
             float: right;
-            box-shadow: 0px 0px 15px rgba(#0000, .35);
+            top: 300px; /*Con Parallax*/
+            z-index: 1;
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
             h3{
                 font-size: 50px;
                 font-weight: 300;
@@ -37,6 +38,56 @@
                 line-height: 28px;
                 margin-bottom: 15px;
             }
+        }
+    }
+    .menu{
+        padding-top: 695px;
+        margin-bottom: 50px;
+        .titulo{
+            font-size: 40px;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contenedor-menu,
+        .conetenedor-menu2{
+            border: 1px solid #000;
+            background:transparent;
+            padding: 10px;
+            overflow: hidden;
+        }
+        article{
+            width: 50%;
+            float: left;
+            padding: 20px;
+        }
+        .categoria{
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .platillo{
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 4px dotted #000;
+            overflow: hidden;
+        }
+        .nombre{
+            font-size: 20px;
+            margin-bottom: 15px;
+            float: left;
+        }
+        .precio{
+            font-size: 20px;
+            margin-bottom: 15px;
+            float: right;
+
+        }
+        .descripcion{
+            font-size: 16px;
+            color: #676767;
+            clear: both;
         }
     }
 }
