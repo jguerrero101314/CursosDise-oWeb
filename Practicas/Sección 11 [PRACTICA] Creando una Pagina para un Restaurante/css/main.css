@@ -58,10 +58,10 @@ header {
 .main {
   background: url("../img/bg-textura.png");
   background-repeat: repeat; }
-  .main .acerda-de .contenedor {
+  .main .acerca-de .contenedor {
     overflow: visible;
     position: relative; }
-  .main .acerda-de .foto {
+  .main .acerca-de .foto {
     width: 80%;
     position: absolute;
     left: 0;
@@ -69,10 +69,10 @@ header {
     z-index: 0;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
-    .main .acerda-de .foto img {
+    .main .acerca-de .foto img {
       width: 100%;
       vertical-align: top; }
-  .main .acerda-de article {
+  .main .acerca-de article {
     background: #fff;
     padding: 40px;
     width: 50%;
@@ -83,11 +83,11 @@ header {
     z-index: 1;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
-    .main .acerda-de article h3 {
+    .main .acerca-de article h3 {
       font-size: 50px;
       font-weight: 300;
       margin-bottom: 40px; }
-    .main .acerda-de article p {
+    .main .acerca-de article p {
       line-height: 28px;
       margin-bottom: 15px; }
   .main .menu {
