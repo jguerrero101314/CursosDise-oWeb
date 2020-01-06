@@ -230,6 +230,28 @@ footer {
   .main .mapa {
     width: 80%;
     margin: auto; } }
+@media screen and (max-width: 400px) {
+  .main .acerca-de article h3 {
+    font-size: 34px;
+    margin-bottom: 10px; }
+
+  .main .menu article .nombre,
+  .main .menu article .precio {
+    font-size: 16px;
+    line-height: 16px; }
+
+  .main .ubicacion .direccion,
+  .main .ubicacion .horarios {
+    width: 100%;
+    text-align: center; }
+
+  .main .ubicacion .direccion {
+    margin-bottom: 20px; }
+
+  .main .ubicacion .horarios .entre-semana,
+  .main .ubicacion .horarios .fin-semana {
+    width: 100%;
+    margin-bottom: 10px; } }
 /*# sourceMappingURL=main.scss.map */
 
 /*# sourceMappingURL=main.css.map */
