@@ -1,0 +1,49 @@
+body {
+    background-color: #edeff2;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #232532;
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+main article {
+    background-color: #fff;
+    padding: 20px;
+}
+
+main article p {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #7aa54c;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.widgets .widget {
+    background-color: #4f5ef5;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #232532;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
