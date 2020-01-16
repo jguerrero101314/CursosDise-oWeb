@@ -3,30 +3,126 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="titulo">Caracteristicas</h3>
+                    <h3 class="titulo">Características</h3>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-sm-4 caracteristica">
-                    <img src="../../../assets/img/icono1.png" alt="">
-                    <h4 class="primera_linea">Lorem, ipsum.</h4>
-                    <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus!</p>
+                    <img src="../../../assets/img/icono1.png" alt="" class="icono">
+                    <h4 class="primera_linea">Lorem Ipsum</h4>
+                    <p class="parrafo">Dolor sit amet, consectetur adipiscing elit. In dignissim odio ut sagittis elementum.</p>
                 </div>
                 <div class="col-sm-4 caracteristica">
-                    <img src="../../../assets/img/icono2.png" alt="">
-                    <h4 class="primera_linea">Lorem, ipsum dolor.</h4>
-                    <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <img src="../../../assets/img/icono2.png" alt="" class="icono">
+                    <h4 class="primera_linea">Aenean rhoncus augue</h4>
+                    <p class="parrafo">Curabitur nisi enim, placerat ac convallis id, posuere vehicula ligula.</p>
                 </div>
                 <div class="col-sm-4 caracteristica">
-                    <img src="../../../assets/img/icono3.png" alt="">
-                    <h4 class="primera_linea">Lorem, ipsum.</h4>
-                    <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, distinctio!</p>
+                    <img src="../../../assets/img/icono3.png" alt="" class="icono">
+                    <h4 class="primera_linea">Praesent</h4>
+                    <p class="parrafo">Nulla diam mi, pharetra eget mattis sed, mollis non ligula.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="fotos"></section>
-    <section class="clientes"></section>
-    <section class="precios"></section>
+
+    <section class="fotos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row foto">
+                        <div class="col-xs-4 thumb">
+                            <img src="../../../assets/img/thumb1.jpg" alt="">
+                        </div>
+                        <div class="col-xs-8 texto">
+                            <h2 class="titulo azul">Vivamus ultricies lacus eu ligula porttitor</h2>
+                            <p class="parrafo">Aenean rhoncus augue nec finibus malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec diam odio, dictum non gravida in, suscipit id est.</p>
+                        </div>
+                    </div>
+
+                    <div class="row foto">
+                        <div class="col-xs-8 texto">
+                            <h2 class="titulo naranja derecha">Aliquam ligula erat, porttitor</h2>
+                            <p class="parrafo derecha">Nunc a semper felis. Ut at tellus massa. Nulla sit amet massa blandit, accumsan orci in, gravida massa. Sed mollis, est at porttitor volutpat, est augue molestie mi, ut pretium quam nunc sed dui. Nunc sed purus nunc.</p>
+                        </div>
+                        <div class="col-xs-4 thumb">
+                            <img src="../../../assets/img/thumb2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clientes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="titulo">Nuestros Clientes</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cliente col-xs-6 col-md-3">
+                    <a href="#"><img src="../../../assets/img/cliente1.png" alt=""></a>
+                </div>
+                <div class="cliente col-xs-6 col-md-3">
+                    <a href="#"><img src="../../../assets/img/cliente2.png" alt=""></a>
+                </div>
+                <div class="cliente col-xs-6 col-md-3">
+                    <a href="#"><img src="../../../assets/img/cliente3.png" alt=""></a>
+                </div>
+                <div class="cliente col-xs-6 col-md-3">
+                    <a href="#"><img src="../../../assets/img/cliente4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="precios">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="titulo">Precios</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="precio col-sm-4">
+                    <div class="plan verde">
+                        <p class="nombre">Basico</p>
+                        <p class="precio">$9</p>
+                        <ul class="list-group">
+                            <li *ngFor="let basico of p_basico">
+                                {{ basico }}
+                            </li>
+                        </ul>
+                        <a href="" class="btn">Contractar Ahora</a>
+                    </div>
+                </div>
+                <div class="precio col-sm-4">
+                    <div class="plan active">
+                        <p class="nombre">Standar</p>
+                        <p class="precio">$19</p>
+                        <ul class="list-group">
+                            <li *ngFor="let standar of p_standard">
+                                {{ standar }}
+                            </li>
+                        </ul>
+                        <a href="" class="btn">Contractar Ahora</a>
+                    </div>
+                </div>
+                <div class="precio col-sm-4">
+                    <div class="plan naranja">
+                        <p class="nombre">Premium</p>
+                        <p class="precio">$99</p>
+                        <ul class="list-group">
+                            <li *ngFor="let premium of p_premium">
+                                {{ premium }}
+                            </li>
+                        </ul>
+                        <a href="" class="btn">Contractar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="reviews"></section>
 </section>
