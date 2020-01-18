@@ -76,4 +76,100 @@
             }
         }
     }
+    .precios {
+        background: url('../../../assets/img/precios-bg.jpg'), #727171;
+        background-size: cover;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        padding: 70px 0!important;
+        .titulo {
+            text-align: center!important;
+            font-family: "Open Sans", Arial, sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 70px!important;
+            // margin-left: 120px!important;
+        }
+        .plan {
+            background: #fff;
+            text-align: center!important;
+            // margin-left: 100px!important;
+            font-family: "Open Sans", Arial, sans-serif;
+            padding: 50px 0!important;
+            // 0px 0px 15px 0px rgba(0, 0, 0, 0, 0.35);
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+            -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+            .nombre {
+                font-size: 32px;
+                line-height: 32px;
+                font-weight: 300;
+                margin-bottom: 30px!important;
+            }
+            .precio {
+                font-weight: 300;
+                font-size: 48px;
+                margin-bottom: 30px!important;
+            }
+            .caracteristicas {
+                list-style: none;
+                padding: 0 20px;
+                margin-bottom: 50px;
+                li {
+                    font-size: 18px;
+                    padding: 15px 0;
+                    border-bottom: 1px solid #dedede;
+                }
+            }
+            .btn {
+                width: 70%;
+                font-size: 16px!important;
+                padding: 15px 0;
+                text-align: center;
+                display: inline-block;
+                border-radius: 100px;
+            }
+            &.verde {
+                .nombre,
+                .precio {
+                    color: #86b773;
+                }
+                .btn {
+                    color: #86b773;
+                    border: 2px solid #86b773;
+                    &:hover {
+                        background: #86b773;
+                        color: #fff;
+                    }
+                }
+            }
+            &.active {
+                background: #4c8dce;
+                color: #fff;
+                .btn {
+                    color: #fff;
+                    border: 2px solid #fff;
+                    &:hover {
+                        background: #fff;
+                        color: #4c8dce;
+                    }
+                }
+            }
+            &.naranja {
+                .nombre,
+                .precio {
+                    color: #ddb146;
+                }
+                .btn {
+                    color: #ddb146;
+                    border: 2px solid #ddb146;
+                    &:hover {
+                        background: #ddb146;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1,5 +1,5 @@
 <section class="main">
-    <section class="caracteristicas">
+    <section class="caracteristicas d-flex justify-content-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -55,102 +55,104 @@
         </div>
     </section>
 
-    <section class="clientes">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="titulo">Nuestros Clientes</h3>
+    <section class="clientes d-flex justify-content-center">
+        <div class=" container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h3 class="titulo ">Nuestros Clientes</h3>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="cliente col-xs-6 col-md-3">
-                    <a href="#"><img src="../../../assets/img/cliente1.png" alt=""></a>
+            <div class="row ">
+                <div class="cliente col-xs-6 col-md-3 ">
+                    <a href="# "><img src="../../../assets/img/cliente1.png " alt=" "></a>
                 </div>
-                <div class="cliente col-xs-6 col-md-3">
-                    <a href="#"><img src="../../../assets/img/cliente2.png" alt=""></a>
+                <div class="cliente col-xs-6 col-md-3 ">
+                    <a href="# "><img src="../../../assets/img/cliente2.png " alt=" "></a>
                 </div>
-                <div class="cliente col-xs-6 col-md-3">
-                    <a href="#"><img src="../../../assets/img/cliente3.png" alt=""></a>
+                <div class="cliente col-xs-6 col-md-3 ">
+                    <a href="# "><img src="../../../assets/img/cliente3.png " alt=" "></a>
                 </div>
-                <div class="cliente col-xs-6 col-md-3">
-                    <a href="#"><img src="../../../assets/img/cliente4.png" alt=""></a>
+                <div class="cliente col-xs-6 col-md-3 ">
+                    <a href="# "><img src="../../../assets/img/cliente4.png " alt=" "></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="precios">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="titulo">Precios</h3>
+    <section class="precios d-flex justify-content-center ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 d-flex justify-content-center ">
+                    <h3 class="titulo ">Precios</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="precio col-sm-4">
-                    <div class="plan verde">
-                        <p class="nombre">Basico</p>
-                        <p class="precio">$9</p>
-                        <ul class="list-group">
-                            <li *ngFor="let basico of p_basico">
+            <div class="row ">
+                <div class="precio col-sm-4 ">
+                    <div class="plan verde ">
+                        <p class="nombre ">Básico</p>
+                        <p class="precio ">$9</p>
+                        <ul class="caracteristicas ">
+                            <li *ngFor="let basico of p_basico ">
                                 {{ basico }}
                             </li>
                         </ul>
-                        <a href="" class="btn">Contractar Ahora</a>
+                        <a href="# " class="btn mt-3 ">Contratar Ahora</a>
                     </div>
                 </div>
-                <div class="precio col-sm-4">
-                    <div class="plan active">
-                        <p class="nombre">Standar</p>
-                        <p class="precio">$19</p>
-                        <ul class="list-group">
-                            <li *ngFor="let standar of p_standard">
+
+                <div class="precio col-sm-4 ">
+                    <div class="plan active ">
+                        <p class="nombre ">Standard</p>
+                        <p class="precio ">$19</p>
+                        <ul class="caracteristicas ">
+                            <li *ngFor="let standar of p_standard ">
                                 {{ standar }}
                             </li>
                         </ul>
-                        <a href="" class="btn">Contractar Ahora</a>
+                        <a href="# " class="btn mt-3">Contratar Ahora</a>
                     </div>
                 </div>
-                <div class="precio col-sm-4">
-                    <div class="plan naranja">
-                        <p class="nombre">Premium</p>
-                        <p class="precio">$99</p>
-                        <ul class="list-group">
-                            <li *ngFor="let premium of p_premium">
+
+                <div class="precio col-sm-4 ">
+                    <div class="plan naranja ">
+                        <p class="nombre ">Premium</p>
+                        <p class="precio ">$99</p>
+                        <ul class="caracteristicas ">
+                            <li *ngFor="let premium of p_premium ">
                                 {{ premium }}
                             </li>
                         </ul>
-                        <a href="" class="btn">Contractar Ahora</a>
+                        <a href="# " class="btn mt-3 ">Contratar Ahora</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="reviews">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="titulo">Lo que nuestros clientes dicen:</h3>
+    <section class="reviews ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h3 class="titulo ">Lo que nuestros clientes dicen:</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 cliente">
-                    <div class="foto">
-                        <img src="../../../assets/img/foto1.jpg" alt="">
+            <div class="row ">
+                <div class="col-md-12 cliente ">
+                    <div class="foto ">
+                        <img src="../../../assets/img/foto1.jpg " alt=" ">
                     </div>
-                    <div class="review">
-                        <p class="texto"> " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, excepturi."</p>
-                        <p class="nombre">- Joel Guerrero</p>
+                    <div class="review ">
+                        <p class="texto "> " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, excepturi. "</p>
+                        <p class="nombre ">- Joel Guerrero</p>
                     </div>
                 </div>
-                <div class="col-md-12 cliente">
-                    <div class="review">
-                        <p class="texto"> " Lorem ipsum dolor sit, adipisicing elit. Et, excepturi."</p>
-                        <p class="nombre">- Jhon Doe</p>
+                <div class="col-md-12 cliente ">
+                    <div class="review ">
+                        <p class="texto "> " Lorem ipsum dolor sit, adipisicing elit. Et, excepturi. "</p>
+                        <p class="nombre ">- Jhon Doe</p>
                     </div>
-                    <div class="foto">
-                        <img src="../../../assets/img/foto2.jpg" alt="">
+                    <div class="foto ">
+                        <img src="../../../assets/img/foto2.jpg " alt=" ">
                     </div>
                 </div>
             </div>
