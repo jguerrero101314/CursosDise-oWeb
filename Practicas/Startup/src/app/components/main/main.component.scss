@@ -58,4 +58,22 @@
             }
         }
     }
+    .clientes {
+        background-color: #2d353e;
+        padding: 40px 0!important;
+        .titulo {
+            text-align: center;
+            font-family: "Open Sans", Arial, sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 40px!important;
+        }
+        .cliente {
+            text-align: center;
+            a {
+                display: block;
+            }
+        }
+    }
 }
