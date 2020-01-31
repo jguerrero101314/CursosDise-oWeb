@@ -1,0 +1,58 @@
+header {
+    .logo {
+        padding-top: 1.25em; //20px
+        padding-bottom: 1.25em; //20px
+        a {
+            display: inline-block;
+        }
+    }
+    .redes-sociales {
+        text-align: right;
+        line-height: 5em;
+        a {
+            border-radius: 50%;
+            width: 2.5em; //40px
+            height: 2.5em; //40px
+            text-align: center;
+            line-height: 2.5em; //40px
+            display: inline-block;
+            background-color: navy;
+            color: #fff;
+            margin-left: 1.25em; //20px
+            &.youtube {
+                background-color: #c05554;
+            }
+            &.facebook {
+                background-color: #3b5998;
+            }
+            &.twitter {
+                background-color: #55acee;
+            }
+        }
+    }
+    .menu {
+        background: $azul_primario;
+        margin-bottom: 1.25em;
+        ul {
+            list-style: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            li {
+                float: left;
+                display: inline-block;
+                a {
+                    color: #fff;
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    font-size: 0.87em;
+                    color: #fff;
+                    &:hover {
+                        text-decoration: none;
+                        background: $azul_secundario;
+                    }
+                }
+            }
+        }
+    }
+}
