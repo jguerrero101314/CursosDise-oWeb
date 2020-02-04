@@ -178,5 +178,33 @@ sidebar .titulo-seccion h3 {
   display: inline-block;
   padding: 0.62em 0.9375em;
 }
+.main .paginacion ul li a:hover {
+  background: #7780da;
+  text-decoration: none;
+}
+.main .wp-pagenavi {
+  margin-bottom: 1.25em;
+}
+.main .wp-pagenavi .pages,
+.main .wp-pagenavi span {
+  background: #3b3b3b;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  line-height: 1.125em;
+  padding: 0.62em 0.9375em;
+}
+.main .wp-pagenavi a {
+  background: #5f6ad4;
+  color: #fff;
+  font-size: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.9375em;
+  margin-right: 0.62em;
+}
+.main .wp-pagenavi a:hover {
+  background: #7780da;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=estilos.css.map */
