@@ -90,6 +90,9 @@ sidebar .titulo-seccion h3 {
 .main .titulo-seccion > div {
   padding: 0;
 }
+.main .single-post .categorias {
+  margin-bottom: 1.875em;
+}
 .main .posts .post {
   margin-bottom: 1.875em;
 }
